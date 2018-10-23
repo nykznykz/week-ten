@@ -13,6 +13,9 @@ describe("Vue component tests", () => {
   it("The component should have an updateCurrentChart function.", () => {
     expect(typeof App.methods.updateCurrentChart).toBe("function");
   });
+  it("The component should have an updateChart function.", () => {
+    expect(typeof App.methods.updateChart).toBe("function");
+  });
   it("has a created hook", () => {
     expect(typeof App).toBe("object");
   });
