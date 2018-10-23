@@ -18,6 +18,7 @@ export default {
         ["Apr", 5],
         ["May", 3]
       ],
+      title: "BT3103 Week 10",
       localLineData: [["Sun", 32], ["Mon", 46], ["Tue", 28]]
     };
   },
